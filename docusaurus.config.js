@@ -87,6 +87,8 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+
+    onBrokenMarkdownLinks: 'warn'
 };
 
 module.exports = config;
