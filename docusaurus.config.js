@@ -10,7 +10,7 @@ const config = {
   tagline: 'Szabalyok',
   url: 'https://szabalyok.netlify.app',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
@@ -87,8 +87,6 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-
-    onBrokenMarkdownLinks: 'warn'
 };
 
 module.exports = config;
